@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Client Management</h1>
+
+<div class="form-container">
+    <h2>Add New Client</h2>
+    <form id="clientForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <h3>Addresses</h3>
+        <div id="addresses">
+            <div class="address">
+                <label for="street">Street:</label>
+                <input type="text" id="street" name="street" required>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" required>
+
+                <label for="zipCode">Zip Code:</label>
+                <input type="text" id="zipCode" name="zipCode" required>
+            </div>
+        </div>
+        <button type="button" id="addAddressBtn">Add Another Address</button>
+        <button type="submit">Save Client</button>
+    </form>
+</div>
+
+<div class="client-list">
+    <h2>Clients</h2>
+    <ul id="clientList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

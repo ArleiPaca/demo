@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.form-container {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.client-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.client-list li {
+    background: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
